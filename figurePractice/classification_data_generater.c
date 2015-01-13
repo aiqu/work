@@ -26,8 +26,8 @@ static int prob_data_C[5][5] = {
 
 void genClassData(FILE* out, char class_name, int it_num, int a, int b, int c, int d, int e){
 	int lottery;
-	char result_class = 'A';
 	for(int i = 0;i < it_num;i++){
+		char result_class = 'A';
 		lottery = rand()%100;
 
 		if(lottery <= a){
