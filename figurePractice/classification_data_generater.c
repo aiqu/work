@@ -40,7 +40,7 @@ void genClassData(FILE* out, char class_name, int it_num, int a, int b, int c, i
 		else
 			result_class = 'E';
 
-		fprintf(out, "%c, %c\n", class_name, result_class);
+		fprintf(out, "%c\t%c\n", class_name, result_class);
 	}
 }
 
