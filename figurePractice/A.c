@@ -53,9 +53,8 @@ int main(){
 	}
 	
 	for(i = 0;i < it_num;i++){
-		fprintf(out, "%d ", target_method());
+		fprintf(out, "%d\n", target_method());
 	}
-	fprintf(out, "\n");
 	fclose(out);
 
 	return 0;
